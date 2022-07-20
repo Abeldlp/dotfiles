@@ -68,8 +68,6 @@ alias clear-cache="paccache -rk2 && paccache -ruk1 && paccache -rk2 -c ~/.cache/
 alias anime="~/Tools/ani-cli/bin/ani-cli"
 alias rice="curl -L rum.sh/ricebowl"
 
-alias test="echo test"
-
 # CUSTOM FUNCTIONS
 function squash(){
     it reset $(git merge-base master $(git branch --show-current))
