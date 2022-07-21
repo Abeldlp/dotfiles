@@ -55,6 +55,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias v="nvim"
 alias t="tmux"
 alias store="~/Tools/pling-store-5.0.2-1-x86_64.AppImage"
+alias tree="lsd --tree"
 
 # OTHER
 alias l="logo-ls -l"
