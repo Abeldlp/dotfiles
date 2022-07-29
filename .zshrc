@@ -41,6 +41,7 @@ alias a="git add ."
 alias c="git commit"
 alias p="git push"
 alias gl="git log"
+alias gc="git checkout"
 alias glo="git log --oneline"
 alias gd="git diff ."
 alias gds="git diff --staged ."
@@ -69,7 +70,12 @@ alias clear-cache="paccache -rk2 && paccache -ruk1 && paccache -rk2 -c ~/.cache/
 alias anime="~/Tools/ani-cli/bin/ani-cli"
 alias rice="curl -L rum.sh/ricebowl"
 
+
 # CUSTOM FUNCTIONS
+function gri(){
+    git rebase -i HEAD~$1
+}
+
 function squash(){
     it reset $(git merge-base master $(git branch --show-current))
 }

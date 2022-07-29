@@ -23,13 +23,13 @@ var Settings = class Settings {
     static DYNAMIC_KEYBINDINGS = 'dynamic-keybinding-behaviour';
     static SHOW_LAYOUT_INDICATOR = 'show-layout-panel-indicator';
     static ENABLE_ADV_EXP_SETTINGS = 'enable-advanced-experimental-features';
-    static SHOW_CHANGE_ON_UPDATE = 'show-changelog-on-update';
-    static CHANGELOG_VERSION = 'changelog-version';
     static DISABLE_TILE_GROUPS = 'disable-tile-groups';
     static ENABLE_TILE_ANIMATIONS = 'enable-tile-animations';
     static ENABLE_UNTILE_ANIMATIONS = 'enable-untile-animations';
     static FAVORITE_LAYOUTS = 'favorite-layouts';
     static DEFAULT_MOVE_MODE = 'default-move-mode';
+    static LOW_PERFORMANCE_MOVE_MODE = 'low-performance-move-mode';
+    static MONITOR_SWITCH_GRACE_PERIOD = 'monitor-switch-grace-period';
     static ADAPT_EDGE_TILING_TO_FAVORITE_LAYOUT = 'adapt-edge-tiling-to-favorite-layout';
     static ADAPTIVE_TILING_MOD = 'move-adaptive-tiling-mod';
     static FAVORITE_LAYOUT_MOD = 'move-favorite-layout-mod';
@@ -85,13 +85,13 @@ var Settings = class Settings {
             this.DYNAMIC_KEYBINDINGS,
             this.SHOW_LAYOUT_INDICATOR,
             this.ENABLE_ADV_EXP_SETTINGS,
-            this.SHOW_CHANGE_ON_UPDATE,
-            this.CHANGELOG_VERSION,
             this.DISABLE_TILE_GROUPS,
             this.ENABLE_TILE_ANIMATIONS,
             this.ENABLE_UNTILE_ANIMATIONS,
             this.FAVORITE_LAYOUTS,
             this.DEFAULT_MOVE_MODE,
+            this.LOW_PERFORMANCE_MOVE_MODE,
+            this.MONITOR_SWITCH_GRACE_PERIOD,
             this.ADAPT_EDGE_TILING_TO_FAVORITE_LAYOUT,
             this.ADAPTIVE_TILING_MOD,
             this.FAVORITE_LAYOUT_MOD,
