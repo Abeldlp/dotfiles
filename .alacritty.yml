@@ -52,8 +52,8 @@ window:
     startup_mode: Windowed
 
     # Background opacity
-    # opacity: 0.95
     opacity: 1
+    # opacity: 0.98
 
 scrolling:
     # maximum number of lines in the scrollback buffer. Specifying '0' will
@@ -106,7 +106,7 @@ font:
     # the right, increase the y offset to move the glyph upward.
     glyph_offset:
         x: 0
-        y: -1
+        y: 0
 
 # When true, bold text is drawn using the bright variant of colors.
 draw_bold_text_with_bright_colors: false
