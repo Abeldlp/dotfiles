@@ -113,6 +113,9 @@ function kill-port(){
 export FZF_DEFAULT_OPTS='--border --preview "bat {}" '
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
+export GOPATH="$HOME/go"
+PATH="$GOPATH/bin:$PATH"
+
 source /usr/share/nvm/init-nvm.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
